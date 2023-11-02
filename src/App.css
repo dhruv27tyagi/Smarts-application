@@ -1,0 +1,77 @@
+.container-fluid{
+  background-color: rgb(127, 126, 126);
+}
+
+.btn-outline-success{
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.Alerts-panel{
+  max-height: 237px;
+  overflow-y: scroll;
+}
+
+
+
+.card-header{
+  color: rgb(12, 12, 12);
+  background-color: rgb(66, 228, 72);
+  display: flex;
+  border-block-color: black;
+}
+
+.bg-body-tertiary{
+  padding: 0px;
+  display: flexbox;
+  margin: auto;
+  border: 2px;
+  border-color: black;
+  border-block-color: black;
+}
+
+.Table{
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 4px;
+  
+}
+
+th{
+border-block-color: black;
+}
+
+.Table input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* Style the checked state of the checkbox */
+.Table input[type="checkbox"]:checked::before {
+  content: "\2713"; /* Unicode checkmark character */
+  font-size: 16px;
+  line-height: 16px;
+  color: #007bff; /* Color for the checkmark */
+}
+
+.Panel{
+  overflow: auto;
+}
+
+.column1{
+  width: 10px;
+}
+
+.column2{
+  width: 10px;
+}

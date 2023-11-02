@@ -1,0 +1,5 @@
+<div><BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Server />}></Route>
+    </Routes>
+  </BrowserRouter></div>
